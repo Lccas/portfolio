@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leonardo Carvalho — Desenvolvedor de Software</title>
+  <meta name="description" content="Leonardo Carvalho, desenvolvedor de software pleno em Campinas. Node.js, TypeScript, React, Python, chatbots e LLMs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,450;0,6..72,560;1,6..72,450&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="alternate" hreflang="en" href="../index.html" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23110f0a'/%3E%3Cpath d='M4 4h8M4 4v8M28 28h-8M28 28v-8' stroke='%23f5e642' stroke-width='2'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="hud">
+    <p class="hud-id"><span class="live"></span> Campinas</p>
+    <nav aria-label="Seções">
+      <a href="#atuacao">01 Atuação</a>
+      <a href="#projetos">02 Projetos</a>
+      <a href="#pratica">03 Prática</a>
+      <a href="#formacao">04 Formação</a>
+      <a href="#cursos">05 Cursos</a>
+      <a href="#contato">06 Contato</a>
+      <a class="lang" href="../index.html" hreflang="en" lang="en">English</a>
+    </nav>
+  </header>
+
+  <p class="spine" aria-hidden="true">Desenvolvedor de software · Campinas · 2019—</p>
+
+  <main id="topo">
+    <section class="cover">
+      <div class="cover-head">
+        <div>
+          <p class="kicker">Desenvolvedor pleno</p>
+          <h1>
+            <span>Leonardo</span>
+            <span class="hit">Carvalho</span>
+          </h1>
+        </div>
+        <img class="portrait" src="../images/leonardo.jpg" alt="Retrato de Leonardo Carvalho.">
+      </div>
+      <div class="cover-grid">
+        <p class="lede">Desenvolvo sistemas web e aplicativos desde 2019, com cinco anos na Codee.Tech. Cuido da API, do banco e da interface em Node.js, TypeScript e React, e sigo no sistema depois que ele entra em produção.</p>
+        <dl class="meters">
+          <div><dt>Base</dt><dd>Node.js · TypeScript · React</dd></div>
+          <div><dt>Dados</dt><dd>PostgreSQL · Prisma · Docker</dd></div>
+          <div><dt>IA</dt><dd>Chatbots · LLMs · ML · RAG · MCPs</dd></div>
+          <div><dt>Idioma</dt><dd>Português · Inglês C1</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="atuacao" class="chapter">
+      <header class="chapter-head">
+        <p>01</p>
+        <h2>Atuação</h2>
+      </header>
+
+      <article class="plate">
+        <p class="stamp">2021 — agora</p>
+        <div>
+          <p class="org">Codee.Tech · Campinas</p>
+          <h3>Sistemas em produção, do desenho à manutenção</h3>
+          <p>Desde outubro de 2021 desenvolvo e mantenho sistemas para vários clientes, entre eles um produto de oftalmologia. Respondo pela API em REST e GraphQL, pela interface em React, pelo PostgreSQL com Prisma e pelo ambiente em Docker.</p>
+          <p>Também desenvolvo chatbots com LLM. A mensagem entra, o fluxo consulta o sistema do cliente e devolve a resposta. Quando precisa de uma pessoa, a conversa segue para o atendente. Esse atendimento também tem aplicativo.</p>
+        </div>
+      </article>
+
+      <article class="plate">
+        <p class="stamp">2021 · 5 meses</p>
+        <div>
+          <p class="org">GPR Sistemas · Campinas</p>
+          <h3>Backend em Python, acesso com JWT</h3>
+          <p>Desenvolvi o backend em Python, com Flask e PostgreSQL, e a autenticação com JWT. No React, trabalhei em componentes, estado e rotas junto com o time.</p>
+        </div>
+      </article>
+
+      <article class="plate">
+        <p class="stamp">2019 — 2021</p>
+        <div>
+          <p class="org">Casbrasil Conexão Farma · Campinas</p>
+          <h3>Do estágio ao e-commerce em Django</h3>
+          <p>Comecei como estagiário em Django, no fim de 2018. De 2019 a 2021 desenvolvi um e-commerce e um sistema de parcerias, e cuidei da manutenção em produção, com Git, Docker e Scrum.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="projetos" class="chapter">
+      <header class="chapter-head">
+        <p>02</p>
+        <h2>Projetos</h2>
+      </header>
+
+      <article class="feature">
+        <p class="case">Caso 01</p>
+        <h3>ZooNo</h3>
+        <p class="tag">Detecção de zoonoses · aplicativo e mapa</p>
+        <p>No aplicativo em Expo, a pessoa fotografa o animal ou o inseto. O GPT-4o identifica a espécie, classifica o risco e orienta o manejo. O registro segue com a localização e entra no mapa do dashboard em tempo real.</p>
+        <figure class="shots">
+          <img src="../images/zoono-home.png" alt="Tela inicial do aplicativo ZooNo, logo depois do login, com o atalho para identificar o animal e os registros recentes.">
+          <img src="../images/zoono-mapa.png" alt="Mapa de incidências do dashboard ZooNo, com registros classificados por nível de risco.">
+          <figcaption>Tela inicial do aplicativo e mapa do dashboard. Sessão e registros de demonstração.</figcaption>
+        </figure>
+        <p class="spec-line">Expo · Node.js · Prisma · PostgreSQL · GPT-4o</p>
+      </article>
+
+      <article class="feature alt">
+        <p class="case">Caso 02</p>
+        <h3>Quíron Kimonos</h3>
+        <p class="tag">Quíron Sport Wear · pedidos fora da planilha</p>
+        <p>A confecção controlava pedidos e usuários no Excel. Construí a aplicação web que assumiu esse fluxo e está em produção: NestJS, Prisma, PostgreSQL e Next.js, com autenticação e testes unitários.</p>
+        <figure class="shot-wide">
+          <img src="../images/quiron-pedidos.png" alt="Lista de pedidos do Quíron Kimonos, com busca, status, cliente e total.">
+          <figcaption>Pedidos no lugar da planilha.</figcaption>
+        </figure>
+        <p class="spec-line">NestJS · Next.js · Prisma · PostgreSQL · testes</p>
+      </article>
+
+    </section>
+
+    <section id="pratica" class="chapter">
+      <header class="chapter-head">
+        <p>03</p>
+        <h2>Prática</h2>
+      </header>
+      <ul class="grid">
+        <li><span>Linguagens</span>TypeScript, JavaScript, Node.js, Python</li>
+        <li><span>Interfaces</span>React, Next.js, Expo</li>
+        <li><span>Serviços</span>NestJS, Django, Flask, GraphQL, Hasura</li>
+        <li><span>Dados</span>Prisma, PostgreSQL, MySQL</li>
+        <li><span>Ambiente</span>Git, Docker, Linux, testes unitários</li>
+        <li><span>IA</span>Chatbots, LLMs, machine learning, RAG e MCPs</li>
+      </ul>
+    </section>
+
+    <section id="formacao" class="chapter slim">
+      <header class="chapter-head">
+        <p>04</p>
+        <h2>Formação</h2>
+      </header>
+      <div class="two">
+        <article>
+          <p class="stamp">2024 — 2026</p>
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <p>Tecnólogo pela Universidade Paulista. Concluído.</p>
+        </article>
+        <article>
+          <p class="stamp">2016 — 2018</p>
+          <h3>Sistemas de Computação</h3>
+          <p>Técnico no Colégio Politécnico Bento Quirino.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="cursos" class="chapter">
+      <header class="chapter-head">
+        <p>05</p>
+        <h2>Cursos</h2>
+      </header>
+      <ul class="courses">
+        <li><span>08/2022</span><div><strong>React: Function Components</strong>Alura</div></li>
+        <li><span>07/2022</span><div><strong>REST com Node.js, Express e MySQL</strong>Alura</div></li>
+        <li><span>09/2021</span><div><strong>Docker: containers na prática</strong>Alura</div></li>
+        <li><span>08/2021</span><div><strong>JavaScript para a web</strong>Alura</div></li>
+        <li><span>03/2021</span><div><strong>React: como a biblioteca funciona</strong>Alura</div></li>
+        <li><span>02/2021</span><div><strong>Python 3: introdução e avanço na linguagem</strong>Alura</div></li>
+        <li><span>03/2020</span><div><strong>HTML5 e CSS3</strong>Udemy</div></li>
+        <li><span>11/2018</span><div><strong>Python 3</strong>Udemy</div></li>
+      </ul>
+    </section>
+
+    <section id="contato" class="chapter contact">
+      <header class="chapter-head">
+        <p>06</p>
+        <h2>Contato</h2>
+      </header>
+      <ul>
+        <li><a href="mailto:leonardobcarv@outlook.com">leonardobcarv@outlook.com</a></li>
+        <li><a href="https://github.com/lccas" rel="noopener noreferrer">github.com/lccas</a></li>
+        <li><a href="https://linkedin.com/in/leonardocarvalho133" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
